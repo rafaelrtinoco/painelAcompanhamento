@@ -1,0 +1,41 @@
+li.chamado-priority div {
+  display: flex;
+  justify-content: space-between;
+}
+
+li.chamado-priority {
+  background-color: red;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px; 
+  
+
+}
+
+li.chamado-priority strong{
+  display: block;
+  font-size: 16px;
+  color: #1d388a;
+}
+
+li.chamado-priority div div{
+  color: #1d388a;
+  cursor: pointer;
+  
+}
+
+li.chamado-priority div div:hover{
+  color:#eb7900;
+  transition: 0.2s;
+}
+
+li.chamado-priority span{
+  color: #1d388a;
+  cursor: pointer;
+  
+}
+
+li.chamado-priority span:hover{
+  color: #eb7900;
+  transition: 0.2s;
+}

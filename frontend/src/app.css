@@ -1,0 +1,25 @@
+#app{
+  /* max-width: 1500px; */
+  margin: 0 auto;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+@media (max-width: 1000px) {
+  #app {
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  #app {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  #app aside {
+    width: 100%;
+  }
+}
